@@ -51,6 +51,16 @@ function App() {
                     <p>Email Address: {profile.email}</p>
                     <br />
                     <br />
+                    <a
+                      className="App-link"
+                      href="https://calendar.google.com/calendar/u/0/r"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                    Amend calendar entries here
+                    </a>
+                    <br />
+                    <br />
                     <button onClick={logOut}>Log out</button>
                 </div>
             ) : (
